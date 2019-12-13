@@ -9,17 +9,12 @@ body{
 	max-width:1200;
 	margin: 0 auto;
 }
-/*--div{
---	margin: 0 auto;
---}*/
 .nameSite{
-	 font-family: F1 wide;
-	 background-color: red;
-	 padding: 1px 20px;
+	font-family: F1 wide;
+	background-color: red;
+	padding: 1px 20px;
 }
-/*--nav{
---	margin: 0 auto;
---}*/
+
 ul{
 	list-style-type: none;
 	margin: 0;
@@ -68,7 +63,6 @@ form{
 }
 .form_button:hover{
 	background-color: #333333;
-	--border-color: #333333;
 }
 .form_label{
 	margin: 18 5 18 10;
@@ -78,12 +72,8 @@ form{
     top: 130px;
     left: 50%;	
 }
-.form_field{
-	--margin:18;
-	
+.form_field{	
 	font-family: F1 regular;
-    --float: right;
-    --width: 80%;
     max-width: 130px;
     margin: 12px 15px 12px 0px;
     display: block;
@@ -91,33 +81,23 @@ form{
     border: 1px solid #000;
     border-radius: 10px;
     font-size: 14px;
-    --color: #444;
 }
 .form_file_chose{
-	--margin:18;
 	font-family: F1 regular;
 	margin: 12px 15px 0px 0px;
 	padding: 6px 10px;
 	border-top: solid 1px #222222;
 	border-bottom: solid 1px #555555;
     border-right: solid 1px #bbbbbb;
-
     border-radius: 10px;
 	font-size: 14px;
-	
-    --border-top: none;
     border-left: none;
     cursor: pointer;
-    --display: block;
-    --color: white;
-    --padding: 8px 15px;
-    --background-color: #080000;
-	
 }
 .edit_lim{
 	float: left;
 	width: 300;
-	    margin-top: 8;
+	margin-top: 8;
 }
 .fat{
 	margin-bottom: 20;
@@ -126,9 +106,9 @@ form{
 	display: inline;
 }
 .edit_fld{
-float: left;
+	float: left;
 	position: relative;
-    left: 100;
+	left: 100;
 }
 .long{
 	max-width: 250px;
@@ -157,7 +137,6 @@ float: left;
 }
 #toRight{
  	float: right;
-
 }
 #team_list{
 	min-height:630;
@@ -178,9 +157,6 @@ float: left;
 	margin-bottom: 10;
 }
 .imgStart{
-	--margin: 0 auto;
-	--min-width:800;
-	--max-width:1200;
 	width: 100%;
 	height: auto;
 	z-index: -1;
@@ -199,7 +175,6 @@ float: left;
 	font-family: F1 bold;
 	font-size: 24;
 	margin: 10px;
-
 }
 .edit_group{
 	display: flex;
@@ -226,89 +201,60 @@ footer{
 	color:white;
 	padding: 16px;
 	background-color: #080000;
-	--min-width:800;
-	--max-width:1200;
 }
-	.listThin {
-		--font-family: Calibri;
-		float:left;
-		width:20%;
-		text-align:left;
-		//border: solid red 2px;
-	}
-	.listWide {
-		--font-family: Calibri;
-		float:left;
-		width:30%;
-		text-align:left;
-		//border: solid red 2px;
-	}
-	.name{
+.listThin {
 	float:left;
-		font-size: 30;
-		display: block;
-		    width: 100%;
-			margin-left:20;
-	}
-	.comment{
+	width:20%;
+	text-align:left;
+	//border: solid red 2px;
+}
+.listWide {
 	float:left;
-		font-size: 12;
-		display: block;
-		margin-left:20;
-	}
-
-	.choose_line{
-		width:700;
-	}
+	width:30%;
+	text-align:left;
+	//border: solid red 2px;
+}
+.name{
+	float:left;
+	font-size: 30;
+	display: block;
+	width: 100%;
+	margin-left:20;
+}
+.comment{
+	float:left;
+	font-size: 12;
+	display: block;
+	margin-left:20;
+}
+.choose_line{
+	width:700;
+}
 .errMsg{
 	font-family: F1 bold;
     font-size: 30;
 }
-	
 .fileform { 
---display: inline;
-	--font-family: F1 regular;
-	--margin: 12px 15px 0px 0px;
-	--padding: 6px 10px;
-	    --margin: 4px 15px 12px 10px;
-		
-		    margin: 4px 15px 12px 10px;
+	margin: 4px 15px 12px 10px;
 	border-top: solid 1px #222222;
 	border-bottom: solid 1px #555555;
-    border-right: solid 1px #bbbbbb;
-
-    border-radius: 10px;
-	--font-size: 14px;
-float:right;
-    --background-color: #FFFFFF;
-    --border: 1px solid #CCCCCC;
-    --border-radius: 2px;
-    cursor: pointer;
-    --height: 26px;
-    overflow: hidden;
-    --padding: 2px;
-    position: relative;
-    text-align: left;
-    vertical-align: middle;
-    width: 375px;
+	border-right: solid 1px #bbbbbb;
+	border-radius: 10px;
+	float:right;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	vertical-align: middle;
+	width: 375px;
 }
- 
 .fileform .selectbutton { 
-    --background-color: #A2A3A3;
-    --border: 1px solid #939494;
-    --border-radius: 2px;
-    --color: #FFFFFF;
     float: right;
-    --font-size: 14px;
-    --height: 20px;
-    --line-height: 20px;
-    --overflow: hidden;
     padding: 5px;
     text-align: center;
     vertical-align: middle;
     width: 120px;
 }
- 
 .fileform #upload{
     position:absolute; 
     top:0; 
@@ -322,43 +268,37 @@ float:right;
     z-index:20;
 }
 .fileform #fileformlabel { 
-    border-radius: 10px;
-color:#000000;
-padding: 6px 10px;
+	border-radius: 10px;
+	color:#000000;
+	padding: 6px 10px;
 	background-color: #FFFFFF;
 	float: left;
 	height: 29px;
-	--line-height: 22px;
 	overflow: hidden;
 	text-align: left;
 	vertical-align: middle;
 	width:250px;
 }
-	
 		
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-	.social a {
-		text-align: center;
-		width: 46px;
-		height: 46px;
-		float: left;
-		background: #ffffff;
-		border: 1px solid #444444;
-		//box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
-		border-radius: 46px;
-		margin: 0 10px 10px 0;
-		padding: 6px;
-		color: #000000;
-	}
-	.facebook a:hover {background: #3b5998; color: #ffffff;}
-	.instagram a:hover {background: #3f729b; color: #ffffff;}
-	.twitter a:hover {background: #00acee; color: #ffffff;}
-	.linkedin a:hover {background: #0e76a8; color: #ffffff;}	
-		
-		
-		
-		
-		
+.social a {
+	text-align: center;
+	width: 46px;
+	height: 46px;
+	float: left;
+	background: #ffffff;
+	border: 1px solid #444444;
+	//box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+	border-radius: 46px;
+	margin: 0 10px 10px 0;
+	padding: 6px;
+	color: #000000;
+}
+.facebook a:hover {background: #3b5998; color: #ffffff;}
+.instagram a:hover {background: #3f729b; color: #ffffff;}
+.twitter a:hover {background: #00acee; color: #ffffff;}
+.linkedin a:hover {background: #0e76a8; color: #ffffff;}	
+			
 @font-face {font-family: "F1 regular";
 	src: url("../fonts/Formula1-Regular.otf") format("truetype");
 	font-style: normal; 
